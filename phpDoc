@@ -1,0 +1,54 @@
+---------------------------       first create iis server ready for hosting   ((it's like apache and nginx for windows specially))     ------------------------------------
+
+
+------------------ then configure enviroment variable -----------------------------   through control panel-------------------------
+
+7777777777777777777777777          server manager config    7777777777777777777777777777777777777777
+
+installation type ----- role based---- next
+
+server selection ----next
+
+server roles ---- web server (iis) (10 of 43 installed)------web server-----application developement------cgi----next
+
+features -------next
+
+install
+
+
+
+
+
+on right panel click on tools --- iis---
+
+
+after iis dilouge opens click on server----handeler mapping---
+
+
+request path-- *.path
+
+module ---  fastcgimodule
+
+executable ---    php-cgi.exe
+
+name --- php
+
+
+==============================   now back on iis server and select default document   =================================================
+
+add a index.php file -------------------it is a blank file 
+
+stop and start iis server
+
+
+
+
+
+
+
+
+
+
+
+
+
