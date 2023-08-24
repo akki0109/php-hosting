@@ -36,10 +36,10 @@ name --- php
 
 ==============================   now back on iis server and select default document   =================================================
 
-add a index.php file -------------------it is a blank file 
+add a index.php file    -------------------     it will be a blank file 
 
 stop and start iis server
-
+ 
 
 
 
